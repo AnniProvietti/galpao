@@ -23,7 +23,7 @@ body{
     right: 10px;
     align-items: center;
     background: beige url('imagens/galpao.jpg') no-repeat;
-    color: coral;
+    color: rgb(83, 69, 50);
     font: 1em 'Courier New', Courier, monospace;
     width: 95%;
 }
