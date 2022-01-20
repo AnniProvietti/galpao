@@ -1,0 +1,21 @@
+.texto{
+    color: antiquewhite;
+    background-color: black;
+}
+.destaque{
+    color: coral;
+    background-color: beige;
+}
+body{
+    background: black url('imagens/galpao.jpg') no-repeat;
+    color: aliceblue;
+    font: 1em 'Courier New', Courier, monospace;
+}
+#principal{
+    border: 1px solid aliceblue;
+    width: 450px;
+    height: 250px;
+}
+span{
+    font-size: 2em;
+}
