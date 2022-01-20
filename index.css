@@ -23,8 +23,7 @@
 }
 @media screen and (max-width:400px){
     .leftcolumn, .rigthcolumn{
-        float: none;
-        max-width:100%;
+        width:100%;
         padding: 0;
     }
 }
@@ -45,7 +44,7 @@ img{
 }
 a:link,a:visited{
     position: relative;
-    left: 20px;
+    left: 30px;
     font-size: 150%;
     color: rgb(83, 69, 50);
     text-align: center;
@@ -68,13 +67,16 @@ a:active {
 #txtBusca{
     float: left;
     position: relative;
-    left: initial;
+    left: 30px;
+    height: 40px;
     background-color: transparent;
     padding-left: 5px;
     width:100px;
     height: 26px;
 }
 #btnBusca{
+    position: relative;
+    left: 10px;
     background-color: transparent;
     width: 30px;
     height: 26px;
