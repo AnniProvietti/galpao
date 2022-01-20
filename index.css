@@ -1,6 +1,6 @@
 .texto{
-    color: antiquewhite;
-    background-color: black;
+    color: rgb(83, 69, 50);
+    background-color: white;
 }
 .destaque{
     color: coral;
@@ -8,11 +8,11 @@
 }
 body{
     background: black url('imagens/galpao.jpg') no-repeat;
-    color: aliceblue;
+    color: rgb(23, 82, 134);
     font: 1em 'Courier New', Courier, monospace;
 }
 #principal{
-    border: 1px solid aliceblue;
+    border: 1px solid rgb(183, 202, 219);
     width: 450px;
     height: 250px;
 }
