@@ -1,23 +1,40 @@
 .texto{
     color: rgb(83, 69, 50);
     background-color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 .destaque{
     color: rgb(58, 26, 14);
     background-color: beige;
 }
+.column{
+    float: left;
+    width: 50%;
+}
 body{
     position: relative;
-    left: 10px;
+    left: 30px;
+    right: 10px;
+    align-items: center;
     background: beige url('imagens/galpao.jpg') no-repeat;
     color: coral;
     font: 1em 'Courier New', Courier, monospace;
+    width: 95%;
 }
 #principal{
     border: 1px solid rgb(183, 202, 219);
-    width: 450px;
+    width: 90%;
     height: 250px;
-    font-size: 120%;
+    font-size: 100%;
+}
+#secundario{
+    background-position-x: initial;
+    position: relative;
+    left: 20px;
+    border: 1px solid rgb(183, 202, 219);
+    width: 90%;
+    height: 250px;
+    font-size: 100%;
 }
 a:link,a:visited{
     position: relative;
