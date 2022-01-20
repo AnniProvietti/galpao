@@ -23,6 +23,7 @@
 }
 @media screen and (max-width:400px){
     .leftcolumn, .rigthcolumn{
+        float: none;
         max-width:100%;
         padding: 0;
     }
