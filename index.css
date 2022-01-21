@@ -23,6 +23,9 @@
     background-color:white;
     height: 200px;
 }
+#rigthcolumnsup{
+    flex-grow: initial;
+}
 @media screen and (max-width:400px){
     .leftcolumn, .rigthcolumn{
         display: flex;
