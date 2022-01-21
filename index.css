@@ -10,20 +10,22 @@
 .leftcolumn{
     border: none;
     float: left;
-    width: 75%;
     background-color:white;
+    display: grid;
+    grid-template-columns: 75%;
     height: 400px;
 }
 .rigthcolumn{
     float: left;
     border: none;
-    width: 20%;
+    display: grid;
+    grid-template-columns: 20%;
     background-color:white;
     height: 200px;
 }
 @media screen and (max-width:400px){
     .leftcolumn, .rigthcolumn{
-        width:100%;
+        grid-template-columns: auto;
         padding: 0;
     }
 }
