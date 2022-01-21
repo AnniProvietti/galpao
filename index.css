@@ -26,7 +26,7 @@
 #rigthcolumnsup{
     flex-grow: initial;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:800px){
     .leftcolumn, .rigthcolumn{
         display: flex;
         flex-grow: initial;
