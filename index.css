@@ -11,15 +11,15 @@
     border: none;
     float: left;
     background-color:white;
-    display: flex;
-    flex: 60%;
+    display: block;
+    width: 75%;
     height: 400px;
 }
 .rigthcolumn{
     float: left;
     border: none;
-    display: flex;
-    flex: 40%;
+    display: block;
+    width: 20%;
     background-color:white;
     height: 200px;
 }
@@ -36,8 +36,8 @@
 }
 body{
     position: relative;
-    left: 30px;
-    right: 10px;
+    left: 100px;
+    right: 0px;
     align-items: center;
     background: beige url('imagens/galpao.jpg') no-repeat;
     color: rgb(83, 69, 50);
