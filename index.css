@@ -29,6 +29,7 @@
 @media screen and (max-width:400px){
     .leftcolumn, .rigthcolumn{
         display: flex;
+        flex-grow: initial;
         flex: 95%;
         padding: 0;
     }
