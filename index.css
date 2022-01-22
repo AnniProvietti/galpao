@@ -27,9 +27,6 @@
     flex-grow: initial;
 }
 @media screen and (max-width:800px){
-    body{
-        background-color: lawngreen;
-    }
     .leftcolumn, .rigthcolumn{
         display: flex;
         flex-grow: initial;
