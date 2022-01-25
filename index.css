@@ -26,6 +26,7 @@
 #rigthcolumnsup{
     flex-grow: initial;
 }
+/* Modifica a apresentação das colunas de acordo com o tamanho da tela */ 
 @media screen and (max-width:800px){
     .leftcolumn, .rigthcolumn{
         display: flex;
@@ -33,6 +34,13 @@
         flex: 95%;
         padding: 0;
     }
+}
+/* Modifica a qpresentação dos links de acordo com o tamanho da tela*/
+@media screen and (max-width: 400px) {
+  header {
+    float: none;
+    width: 100%;
+  }
 }
 body{
     position: relative;
